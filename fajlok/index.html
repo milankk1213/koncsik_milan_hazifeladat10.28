@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Koncsik Milán">
+    <title>Koncsik Milán</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <p>KMK</p>
+        </div>
+        <ul>
+            <li><a href="#kezdolap">Kezdőlap</a></li>
+            <li><a href="#rolam">Rólam</a></li>
+            <li><a href="#munkaim">Munkáim</a></li>
+            <li><a href="#">valami</a></li>
+            <li><a class="kapcsgomb" href="#kapcsolat">Kapcsolat</a></li>
+        </ul>
+    </nav>
+
+    <div id="figyelmeztetes">
+        <div class="doboz">
+            <p>FIGYELEM! Ez a felugró menü és az oldal SZÖVEGE ai által lett generálva, a szöveg nem felel meg a
+                valóságnak!</p>
+            <button onclick="document.getElementById('figyelmeztetes').style.display='none'">Oké</button>
+        </div>
+    </div>
+
+    <main>
+        <section id="kezdolap" class="szekcio1">
+            <h1>Koncsik <br>Milán Krisztián</h1>
+            <p>18 éves webfejlesztő vagyok. Digitális termékeket, modern weboldalakat és letisztult felhasználói
+                felületeket építek a jövő vállalkozásainak. Hiszek abban, hogy a jó kód nemcsak működik, hanem gyors,
+                biztonságos és könnyen használható. Folyamatosan tanulom a legújabb technológiákat, hogy a terveket
+                pixelpontos, reszponzív valósággá alakítsam, legyen szó egy egyszerű bemutatkozó oldalról vagy egy
+                összetettebb webes alkalmazásról.</p>
+        </section>
+
+
+        <section id="rolam" class="szekcio2">
+            <div class="baloldal">
+                <h1>Rólam</h1>
+                <p>A webfejlesztés világa nem tegnap szippantott be: már évek óta komolyan érdekel a kódolás, és azóta a
+                    mindennapjaim részévé vált. Ez az időszak rengeteg kísérletezéssel, tanulással és gyakorlati
+                    tapasztalattal telt. Az évek során nemcsak az alapvető technológiákat (mint a HTML és a CSS
+                    legapróbb trükkjeit) sajátítottam el, hanem mélyebben beleástam magam a modern JavaScript működésébe
+                    és a reszponzív, animációkkal </p>
+            </div>
+            <div class="jobboldal">
+                <img src="/kepek/image.png" alt="">
+            </div>
+        </section>
+
+        <section id="munkaim" class="szekcio3">
+            <h1>Munkáim</h1>
+            <div class="projektek">
+                <div class="projekt">
+                    <h2>Portfólió oldal</h2>
+                    <p>Saját bemutatkozó oldal, tiszta layouttal és reszponzív felépítéssel. A cél az volt, hogy gyorsan
+                        betöltsön és jól mutasson mobilon is.</p>
+                </div>
+                <div class="projekt">
+                    <h2>Kisvállalkozói weboldal</h2>
+                    <p>Egy helyi szolgáltató számára készült egyszerű, de átlátható oldal. Kapcsolati űrlappal és
+                        mobilbarát menüvel.</p>
+                </div>
+                <div class="projekt">
+                    <h2>Landing page</h2>
+                    <p>Egy termékbemutató oldal, ahol a hangsúly a letisztult tipográfián és a jól átgondolt szekciókon
+                        volt.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="kapcsolat" class="szekcio4">
+            <h1>Kapcsolat</h1>
+            <p>Ha van egy ötleted, vagy csak beszélgetnél egy projektről, írj nyugodtan.</p>
+            <form>
+                <input type="text" name="nev" placeholder="Neved" required>
+                <input type="email" name="email" placeholder="Email címed" required>
+                <textarea name="uzenet" rows="5" placeholder="Üzeneted..." required></textarea>
+                <button type="submit">Küldés</button>
+            </form>
+        </section>
+    </main>
+
+
+
+    </main>
+    <footer>
+        <p>© 2025 Koncsik Milán Krisztián</p>
+    </footer>
+
+</body>
+
+</html>
