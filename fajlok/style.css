@@ -62,6 +62,7 @@ nav ul li a{
 main {
     max-width: 1200px;
     margin: auto;
+    background-color: #272724;
 }
 
 
@@ -83,6 +84,7 @@ main {
 
 .szekcio2{
     padding: 230px 90px 278px 90px;
+    
 }
 
 .szekcio2 h1 {
@@ -94,7 +96,7 @@ main {
 }
 
 .baloldal{
-    width: 360px;
+    min-width: 360px;
 }
 
 #rolam {
@@ -107,6 +109,7 @@ main {
 
 
 .szekcio2 .jobboldal img {
+    width: 3000px;
     max-width: 100%;
     margin-top: 30px;
     border-radius: 8px;
@@ -243,3 +246,40 @@ footer {
     background-color: #5c5f6d;
     transform: scale(1.1);
   }
+
+@media screen and (max-width: 900px) {
+    .szekcio2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .projektek {
+        grid-template-columns: 1fr 1fr;
+    } 
+
+    main {    
+        margin: 0;
+    }
+    .szekcio1, .szekcio2 {
+        padding: 230px 30px 440px 30px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .projektek {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-right: 200px;
+    }
+}
